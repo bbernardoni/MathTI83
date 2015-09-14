@@ -1,9 +1,0 @@
-; TI-83 Plus native script
-reset-calc
-run 6000000
-key-press on 6000000
-send-file %DEBUG_BINARY%
-run 20000000
-key-press on
-key-press apps
-key-press 2
