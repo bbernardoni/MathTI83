@@ -1,0 +1,19 @@
+<project name="Math" version="2" expanded="True" binary="Math" source="Includes\Headers.asm">
+  <build default="true">Build\TI-83 Plus (Native).cmd</build>
+  <help file="brass.xml" />
+  <help file="ion.xml" />
+  <help file="mirage.xml" />
+  <help file="ti83p.xml" />
+  <help file="tios_entrypoints.xml" />
+  <help file="tios_values.xml" />
+  <help file="z80.xml" />
+  <openfile>Includes\ti83plus.inc</openfile>
+  <openfile default="True">Program.asm</openfile>
+  <openfile>MenuText.asm</openfile>
+  <openfile>MathVect.asm</openfile>
+  <openfile>MathFunc.asm</openfile>
+  <openfile>MathProgs\AlgProgs.asm</openfile>
+  <expandedfolder>\Bin</expandedfolder>
+  <expandedfolder>\Includes</expandedfolder>
+  <expandedfolder>\MathProgs</expandedfolder>
+</project>
