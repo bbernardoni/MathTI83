@@ -270,7 +270,7 @@ InlineOptDispLoop:
 	res textInverse,(iy+textFlags)
 	dec d
 	jr z, InlineOptGetKey
-	ld a, " "
+	ld a, ' '
 	bcall(_PutC)
 	jr InlineOptDispLoop
 InlineOptGetKey:
@@ -297,7 +297,7 @@ InlineOptEndDispLoop:
 	ld a, d
 	or a
 	jr z, InlineOptEndDispChar
-	ld a, " "
+	ld a, ' '
 	bcall(_PutC)
 	xor a
 	cp (hl)
@@ -312,7 +312,7 @@ InlineOptEndDispChar:
 	or a
 	jr nz, InlineOptDecSkipB
 	dec d
-	ld a, " "
+	ld a, ' '
 InlineOptDecSkipB:
 	bcall(_PutC)
 	inc hl

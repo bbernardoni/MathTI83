@@ -8,12 +8,13 @@
   <help file="tios_values.xml" />
   <help file="z80.xml" />
   <openfile>Includes\ti83plus.inc</openfile>
-  <openfile default="True">Program.asm</openfile>
+  <openfile>Program.asm</openfile>
   <openfile>MenuText.asm</openfile>
   <openfile>MathVect.asm</openfile>
-  <openfile>MathFunc.asm</openfile>
+  <openfile default="True">MathFunc.asm</openfile>
   <openfile>MathProgs\AlgProgs.asm</openfile>
   <expandedfolder>\Bin</expandedfolder>
+  <expandedfolder>\Build</expandedfolder>
   <expandedfolder>\Includes</expandedfolder>
   <expandedfolder>\MathProgs</expandedfolder>
 </project>
