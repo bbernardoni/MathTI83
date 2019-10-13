@@ -19,6 +19,6 @@ I used Latenite to compile and test my code. It can be downloaded from here: htt
 
 ### Links
 
-In depth documentation (with pictures) here: http://bbernardoni.com/Z80Asm/Z80Asm.html
+In depth documentation (with pictures) here: https://bbernardoni.com/Z80Asm/
 
-Assembler Output located here: http://bbernardoni.com/Z80Asm/Math.htm
+Assembler Output located here: https://bbernardoni.com/Z80Asm/Math.htm
